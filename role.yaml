@@ -18,6 +18,6 @@ subjects:
   name: maheswari
   apiGroup: rbac.authorization.k8s.io
 roleRef:
-- kind: Role 
+  kind: Role 
   name: roboshop-trainee
   apiGroup: rbac.authorization.k8s.io
