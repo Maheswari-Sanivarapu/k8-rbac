@@ -32,8 +32,8 @@ eksctl utils associate-iam-oidc-provider \
 eksctl create iamserviceaccount \
 --cluster=$CLUSTER_NAME \
 --namespace=roboshop \
---name=roboshop-mysql-password \
---attach-policy-arn=arn:aws:iam::$ACC_ID:policy/secretpasswordfetch \
+--name=roboshop-password \
+--attach-policy-arn=arn:aws:iam::557690617909:policy/fetchsecretmanagerpassword \
 --override-existing-serviceaccounts \
 --region $REGION_CODE \
 --approve
