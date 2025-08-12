@@ -15,7 +15,7 @@ metadata:
   name: sa-reader
 subjects:
 - kind: ServiceAccount
-  name: password
+  name: roboshop-password # name of the service account
   namespace: roboshop
 roleRef:
   kind: Role
